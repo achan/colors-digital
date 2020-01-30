@@ -11,6 +11,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
+    "build:style":"tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.1.4"
   }
 }
